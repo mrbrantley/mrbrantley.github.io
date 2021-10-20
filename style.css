@@ -1,0 +1,37 @@
+.profile {
+  border-radius: 55%;
+  width: 300px;
+}
+
+.rounded-corners {
+  border-radius: 25px;
+}
+
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+}
+
+h3{
+  font-family: 'Permanent Marker', cursive;
+}
+
+h5{
+  font-family: 'Source Code Pro', monospace;
+}
+
+p{
+  font-family: 'Source Code Pro', monospace;
+}
+
+a{
+  font-family: 'Source Code Pro', monospace;
+}
+
+li{
+  font-family: 'Source Code Pro', monospace;
+}

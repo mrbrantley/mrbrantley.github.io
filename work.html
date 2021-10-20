@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ross Brantley Portfolio - Work</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: white;
+        }
+        footer {
+            background-color: white;
+        }
+        #whatIKnow {
+            border-left: 1px solid rgba(0,0,0,.125);
+            padding: 20px 30px;
+        }
+        #myLinks {
+            max-width:450px;
+        }
+        .navbar {
+            background-color: #003C5F;
+        }
+        .background {
+            width: 100%;
+            background-color: #F0F2EF;
+        }
+        @media screen and (max-width:767px) {
+            #whatIKnow {
+                border-left: none;
+                padding: 15px;
+                border-top: 1px solid rgba(0,0,0,.125);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- This is your navigation bar. See: https://getbootstrap.com/docs/4.0/components/navbar/-->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container">
+            <!-- Here is where you will add your name -->
+            <a class="navbar-brand" href="#">Ross Brantley  &lt; Full Stack Software Engineer > </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-lg-0">
+                    <!-- In each list item (li) is where your links go -->
+                    <li class="nav-item">
+                        <!-- This is a link -->
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item active">
+                        <!-- This is a link -->
+                        <a class="nav-link" href="work.html" disabled>Work <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- This is a link -->
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="background">
+        <!-- The container contains all of your body content -->
+        <main class="container">
+            <div class="row">
+                <!-- This colum takes up 75% of the page-->
+                <div class="col-lg-8 col-md-8 mt-3 mb-3">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <header><h1>My Projects</h1></header>
+                        </div>
+                    </div>
+                    <!-- This is the first entry of your projects -->
+                    <div class="row mt-3" id="tic-tac-toe">
+                        <div class="col-lg-4 col-md-12">
+                            <div>
+                                <img class="rounded-corners" src="assets/images/Spooky.png" alt="Tic Tac Toe Image" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <h3>Spooky Tic-Tac-Tober</h3>
+                            <p>A Halloween themed game of tic-tac-toe powered by React, Javascript, JSX, HTML, and CSS.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <a href="https://github.com/mrbrantley/Spooky-Tic-Tac-Tober" target="_blank" class="btn btn-secondary btn-md">VIEW CODE</a>
+                        </div>
+                    </div>
+                    <!-- This is a horizontal rule, which is used to divide content -->
+                    <hr>
+                    <!-- This is the second entry of your projects -->
+                    <div class="row mt-3" id="pig-latin">
+                        <div class="col-lg-4 col-md-12">
+                            <div>
+                                <img class="rounded-corners" src="assets/images/pig-latin.png" alt="Pig Latin Image" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <h3>Pig Latin Translator</h3>
+                            <p>A website that translates the input phrase into proper Pig Latin. Powered by React, Javascript, JSX, HTML, and CSS. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <a href="https://github.com/mrbrantley/Pig-Latin-Translator" target="_blank" class="btn btn-secondary btn-md">VIEW CODE</a>
+                        </div>
+                    </div>
+
+                    <!-- This is a horizontal rule, which is used to divide content -->
+                    <hr>
+                    <!-- This is the third entry of your projects -->
+                    <div class="row mt-3" id="indiana-jones">
+                        <div class="col-lg-4 col-md-12">
+                            <div>
+                                <img class="rounded-corners" src="assets/images/indiana.png" alt="Treasure Hunt Image" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <h3>Indiana Jones Treasure Hunt</h3>
+                            <p>A treasure hunt game featuring the most famous explorer of all time. Choose wisely, or choose poorly. Powered by Bootstrap, Javascript, HTML, and CSS. </p>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <a href="https://github.com/mrbrantley/Indiana-Jones-Treasure-Hunt" target="_blank" class="btn btn-secondary btn-md">VIEW CODE</a>
+                        </div>
+                    </div>
+
+                    <!-- This is a horizontal rule, which is used to divide content -->
+                    <hr>
+                    <!-- This is the fourth entry of your projects -->
+                    <div class="row mt-3">
+                        <div class="col-lg-4 col-md-12" id="arnold-tribute">
+                            <div>
+                                <img class="rounded-corners" src="assets/images/arnold.jpg" alt="Arnold Image" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <h3>Arnold is Numero Uno</h3>
+                            <p>An Arnold Schwarzenegger tribute page powered by Bootstrap, HTML, and CSS. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <a href="https://github.com/mrbrantley/Arnold-Is-Numero-Uno" target="_blank" class="btn btn-secondary btn-md">VIEW CODE</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- This column takes up 25% of the page-->
+                <div class="col-lg-4 col-md-4 col-sm-12" id="whatIKnow">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2><strong>Tech Stack</strong></h2>
+                        </div>
+                    </div>
+                    <!-- This is your first entry-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h5>Front End Languages:</h5>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- This is your second entry-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h5>Back End Languages:</h5>
+                            <ul>
+                                <li>Ruby</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- This is your third entry -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h5>Frameworks:</h5>
+                            <ul>
+                                <li>Jest</li>
+                                <li>React</li>
+                                <li>Rails</li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <div id="footerContent">
+            <!-- This is a horizontal rule. It creates a line that spans across the whole page -->
+            <p class="text-center mt-3">Page created by Ross Brantley &copy; 2021</p>
+        </div>
+    </footer>
+</body>
+</html>
